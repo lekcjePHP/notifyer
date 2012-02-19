@@ -20,3 +20,4 @@ def watcher(pageAddress, toaddrs,msg, username, password):
 		time.sleep(10)
 		if actualSize != startSize:
 			wyslij_mail(toaddrs, msg, username, password )
+			return 1
